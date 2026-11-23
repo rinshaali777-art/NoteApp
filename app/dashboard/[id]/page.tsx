@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 import toast from "react-hot-toast"
 
 
-export default function Add() {
+export default function Edit() {
     const [note,setNote] = useState({title:"",description:""})
     const router = useRouter()
     const {id} = useParams()
